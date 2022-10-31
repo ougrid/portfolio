@@ -1,13 +1,58 @@
 .container {
-  background-color: aquamarine;
+  background-color:gainsboro;
 }
 
 .first-column {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  
 }
+
+h1.header {
+  font-size: 30px;
+  margin: 20px auto 0px auto;
+}
+
+h2.header {
+  font-size: 25px;
+  margin: 20px auto;
+}
+
+img.profile-photo {
+  margin-top: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.od-linkedin a:visited {
+  color:coral;
+}
+
+.od-github a:visited {
+  color:coral;
+}
+
+.od-aboutme {
+  margin-left: 70px;
+}
+
+.od-aboutme a:visited {
+  color:coral;
+}
+
+/* .align-items-md-stretch {
+  display: grid;
+  justify-content: center;
+} */
+
 
 
 
